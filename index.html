@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Contact Form - PHP/MySQL Demo Code</title>
+</head>
+
+<body>
+<fieldset>
+<legend style="width: 10cm;">Contact Form</legend>
+<form name="frmContact" method="post" action="contact.php" style="background-color: rgb(247, 250, 252);height: 10cm;width: 10cm;">
+<p>
+<label for="Name" style="color: rgb(247, 9, 128);width: 10cm;">Name </label>
+<input type="text" name="txtName" id="txtName" style="box-shadow: darkslategray;box-shadow: 1cm; height: 1cm;color: antiquewhite; border-radius: 10%;box-shadow: 100mm; color: cornflowerblue;">
+</p>
+<p>
+<label for="email">Email</label>
+<input type="text" name="txtEmail" id="txtEmail">
+</p>
+<p>
+<label for="phone">Phone</label>
+<input type="password" name="txtPhone" id="txtPhone">
+</p>
+<p>
+<label for="message">Message</label>
+<textarea name="txtMessage" id="txtMessage"></textarea>
+</p>
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="Submit" id="Submit" value="Submit" style="padding: 1.70%; margin-top: 0.1%; color: rgb(1, 1, 12); background-color: tomato;padding-left: 0.50cm;padding-right: 0.50cm;text-shadow: 1cm;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';font-style: italic;border-radius: 15%;">
+</p>
+<button onclick="location.href='http://localhost/app/update.html'" type="button" style="padding: 1.70%; margin-top: 0.1%; color: rgb(1, 1, 12); background-color: rgb(243, 255, 71);padding-left: 0.50cm;padding-right: 0.50cm;text-shadow: 1cm;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';font-style: italic;border-radius: 15%;">UPDATE</button>
+<button onclick="location.href='http://localhost/app/delete.html'" type="button" style="padding: 1.70%; margin-top: 0.1%; color: rgb(1, 1, 12); background-color: rgb(214, 164, 98);padding-left: 0.50cm;padding-right: 0.50cm;text-shadow: 1cm;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';font-style: italic;border-radius: 15%;">DELETE</button>
+<button onclick="location.href='http://localhost/app/show.php'" type="button" style="padding: 1.70%; margin-top: 0.1%; color: rgb(1, 1, 12); background-color: rgb(216, 123, 193);padding-left: 0.50cm;padding-right: 0.50cm;text-shadow: 1cm;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';font-style: italic;border-radius: 15%;">SHOW</button>
+<button onclick="location.href='https://tokbox.com/developer/embeds/'" type="button"style="padding: 1.70%; margin-top: 0.1%; color: rgb(1, 1, 12); background-color:orange;padding-left: 0.50cm;padding-right: 0.50cm;text-shadow: 1cm;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';font-style: italic;border-radius: 15%;">VODEO CALL</button>
+
+</form>
+</fieldset>
+</body>
+</html>
